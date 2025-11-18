@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Génération du dégradé de bleu
-
+    image_set_pixel(img, x, y, 0, 0, bleu); 
     image_save_txt(img, "gradient.ppm");
 
     image_free(img);
